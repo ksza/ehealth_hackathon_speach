@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 400;
     src: url('font/Fontin-Regular.ttf') format('truetype'),
-         url('font/Fontin_Sans_R_45b.otf') format('opentype');    
+         url('font/Fontin_Sans_R_45b.otf') format('opentype');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
     font-weight: 400;
     font-style: italic;
     src: url('font/Fontin-Italic.ttf') format('truetype'),
-         url('font/Fontin_Sans_I_45b.otf') format('opentype');    
+         url('font/Fontin_Sans_I_45b.otf') format('opentype');
 }
 
 /**
@@ -34,7 +34,7 @@ body {
 
 .reveal {
   font-family: "fontin", sans-serif;
-  font-size: 36px;
+  font-size: 45px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: black; }
@@ -63,6 +63,14 @@ body {
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/*********************************************
+ * TEXT
+ *********************************************/
+.reveal .selected_text {
+  background: yellow;
+  color: red;
+}
 
 /*********************************************
  * LINKS
